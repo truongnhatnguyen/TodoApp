@@ -1,0 +1,23 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    min-height: 600px;
+    background: #eeebeb;
+    // border: 1px solid black;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    .tag{
+        display: flex;
+        margin-left: 2rem;
+        // justify-content: center;
+    }
+    h1 {
+        margin: 32px 0;
+        color: rgb(124, 123, 123);
+        font-size: 24px;
+      }
+}
